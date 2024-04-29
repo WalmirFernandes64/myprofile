@@ -1,0 +1,30 @@
+.pagina{
+    margin: auto; /* Centraliza */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #ffffff; /*Cinza Escuro*/ 
+    background-color: #4a4a4a; /* Fundo principal: Cinza Escuro */
+}
+
+.blocoPagina {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* Espaçamento entre a imagem e o texto */
+    width: 100%;
+    max-width: 100%;
+    padding-right: 0; /* Remove o espaçamento ao lado quando em mobile */
+}
+
+.imgAboutMe img {
+    width: 100%;
+    max-width: 400px; /* Ajuste conforme necessário */
+    height: auto;
+    border-radius: 10px; /* Se desejar bordas arredondadas */
+}
+
+.txtAboutMe {
+    max-width: 100%;
+    padding-right: 0; /* Remove o espaçamento ao lado quando em mobile */
+}

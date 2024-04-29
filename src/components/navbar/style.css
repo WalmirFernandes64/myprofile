@@ -1,0 +1,48 @@
+:root{
+    --azul-marinho: #0a3a5f; /* substitua pelo código exato de cor azul da imagem */
+    --cinza-escuro: #4a4a4a; /* ajuste para corresponder à imagem */
+    --cinza-claro: #dcdcdc; /* ajuste para corresponder à imagem */
+    --branco: #ffffff;
+    --azul-ciano: #17a2b8; /* ajuste para corresponder à imagem */
+    --hover-azul-ciano: #138496; /* um tom mais escuro para o hover */
+
+    --fundo-destaque:#4a4a4a; /* cinza escuro */
+    --fundo-normal:#ffffff;
+    --fonte-cabecalho:
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Fonte principal */
+}
+
+body {
+    background-color: #4a4a4a; /* Fundo principal: Branco */
+    color: #333333; /* Texto predominante: Cinza Escuro */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif; /* Fonte de destaque para títulos */
+    color: #000080; /* Cor de títulos: Azul Marinho */
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #333; /* Escolha a cor de texto que preferir */
+    flex: 1; /* Permite que o texto cresça e ocupe espaço disponível */
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-around; /* Espaçamento entre a imagem e o texto */
+    width: 100%;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #ffffff; /* Escolha a cor de texto que preferir */
+}
